@@ -1,0 +1,30 @@
+{
+  "name": "alane_and_unichem_system",
+  "version": "1.0.0",
+  "description": "alane and unichem management software, the developing company desires for it to be complex and robust. Like, it should be able to track inventory, generate several reports, manage workflow, manage complex billing adjudications in real-time, keep track of comprehensive dispensing data and a lot more",
+  "main": "server.js",
+  "scripts": {
+    "test": "set HOST=localhost&& set PORT=8000&& node server.js",
+    "dev": "set NODE_ENV=development&& nodemon server.js",
+    "prod": "set NODE_ENV=production&& nodemon server.js"
+  },
+  "keywords": [
+    "pharmacy",
+    "medicine"
+  ],
+  "author": "Milan Sayuraka Alexander Alles",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.23.0",
+    "cors": "^2.8.5",
+    "dateformat": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "socket.io": "^2.3.0"
+  }
+}
